@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="../../css/mob_nav.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 481px)" href="../../css/desk_nav.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="../css/mob_nav.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 481px)" href="../css/desk_nav.css" />
     
 
  
