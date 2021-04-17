@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topnav {
+  margin: 0 auto;
+    overflow: hidden;
+    background-color: #464646;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+/* Change the color of links on hover */
+/*.topnav a:hover {
+  
+}*/
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #808080;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-right: 50px;
+}
+
+.topnav-right a{
+    margin-right: 20px;
+  }
+
+
+.searchbar{
+    border:0;
+    border-bottom:1px solid rgb(182, 182, 182);  
+    width: 250px;
+    height: 38px;
+    background:transparent;
+    font-size:16px;
+    color:#fff;
+}
+
+.searchbar:focus{
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #e74c3c;	
+}
+
+.searchbtn{
+    background-color: transparent;
+    border:0;
+    color: white;
+}
+
+
+.searchbtn:focus{
+    border:none;	
+    outline:none;
+}
+
+.search{
+    float: right;
+}
