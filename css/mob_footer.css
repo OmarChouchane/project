@@ -1,20 +1,49 @@
 
-
-.si{
-    font-size: 60px;
-    
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
+.si{
+  font-size: 40px;
 
+
+}
+
+footer{
+  background-color: #141828 !important;
+}
 .last ul li{
-    margin: auto;
+  margin: auto;
 }
 
 .fac{
-    padding-right: -20px;
+  padding-right: -20px;
 }
 
 .ins{
-    margin-right: 20px;
+  margin-right: 20px;
+}
+footer .box{
+  width:70%;
+  margin: auto;
+  border: solid #9FFFE1;
+  border-color: #9FFFE1;
+  float:left; 
+  color: #9FFFE1;
+}
+
+
+
+footer .box3{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
 }
