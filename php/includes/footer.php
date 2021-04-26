@@ -21,11 +21,11 @@
 
             <ul class="list-unstyled  text-center list-group list-group-horizontal">
               <li class=" fac">
-              <a href="#"><i style="font-size:40px; margin-right: -100px; color:#9FFFE1;" class="fab si fa-facebook " aria-hidden="true"></i></a>
+              <a href="#"><i style="font-size:45px; margin-right: -100px; color:#9FFFE1;" class="fab si fa-facebook " aria-hidden="true"></i></a>
               </li>
               
 
-              <li class="ins"><a href="#"><i style="font-size:40px; margin-left: -100px; color:#9FFFE1;" class="fab si fa-instagram " aria-hidden="true"></i></a>
+              <li class="ins"><a href="#"><i style="font-size:45px; margin-left: -100px; color:#9FFFE1;" class="fab si fa-instagram " aria-hidden="true"></i></a>
               </li>
 
             </ul>
@@ -164,11 +164,11 @@
 
 </style>
         
-        <footer class="text-center text-lg-start  " style="background-color: #141828; ">
+        <footer class="text-center text-lg-start  " style="background-color: #141828;">
             
 
         <div class="row m-0">
-            <div class="col-3 ml-4 mt-4" style="text-align:left; color:#9FFFE1; "  ><a href="" class="logo"><h1>LOGO</h1></a>
+            <div class="col-3 ml-4 mt-4" style="text-align:left; color:#9FFFE1;"  ><a href="" class="logo"><h1>LOGO</h1></a>
             <div class="mt-3 ml-1 socials">
               <ul style="list-style: none;">
                 <li style="float: left;display: inline; "><a href=""><i class="fab fa-facebook-f  mr-2 fac" aria-hidden="true" style="font-size:30px; display: inline; color:#9FFFE1; "></i> </a></li>
@@ -240,7 +240,7 @@ function hideSearch() {
 document.getElementById("searchBar").style.width = "0";
 }
 </script>
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>

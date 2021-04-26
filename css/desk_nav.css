@@ -8,17 +8,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+<a href=""><i class="far fa-bell icon mx-2" style="font-size: 30px;"> </i>
 
 /*------------FIRST BAR START------------*/
 
 .dropdown-menu li{ position: relative;     }
-.nav-item .submenu{ 
+ .submenu{ 
     display: none;
     position: absolute;
     left:100%; top:-7px;
 }
-.nav-item .submenu-left{ 
+ .submenu-left{ 
     right:100%; left:auto;
 }
 .dropdown-menu > li{ background-color: #141828;
@@ -208,7 +208,7 @@ transform: scale(1);
     .second_bar ul .icon{
       color: #828282;
       padding: 5px;
-      border-radius: 50% ;
+      font-size: 30px;
       margin: 0;
       transition: 0.5s;
     }
