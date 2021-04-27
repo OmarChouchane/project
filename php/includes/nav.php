@@ -1,20 +1,5 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 1082px)" href="../css/mob_nav.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 1083px)" href="../css/desk_nav.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 1082px)" href="../css/mob_footer.css" />
-    
 
- 
-</head>
 <body>
 
 <style>
@@ -33,7 +18,7 @@
 
   <template class="ad__mobile">
   
-  <header style="first_nav">
+  <header style="first_nav" id="navbar">
         <div class="container">
             <input type="checkbox" name="" id="check">
             
@@ -186,10 +171,24 @@
 
 
 
+      <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navbar");
+var sticky = header.offsetTop ;
+
+function myFunction() {
+  if (window.pageYOffset > sticky+16) {
+    header.classList.add("radius");
+  } else {
+    header.classList.remove("radius");
+  }
+}
+</script>
 
 
-
-  </template>
+  
+    </template>
 
 
 <!----------------MOBILE NAVBAR end---------------->
@@ -253,7 +252,7 @@
       <!-- navbar-collapse.// -->
       </div>
       <!-- container-fluid.// -->
-      </nav>
+  </nav>
 
 
 
@@ -305,150 +304,6 @@
     
   <!----------------first navbar end---------------->
 
-
-
-  <!----------------second navbar start---------------->
-
-
-    <!------sticky JS function start------->
-
-        <script>
-      window.onscroll = function() {myFunction()};
-
-      var header = document.getElementById("second_bar");
-      var sticky = header.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          header.classList.add("sticky");
-        } else {
-          header.classList.remove("sticky");
-        }
-      }
-      </script>
-
-    <!------sticky JS function end------->
-
-    
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between second_bar my-1" id="second_bar">
-
-
-    <!------------MODAL START------------->
-
-          <div class="d-flex align-items-center col-md-3 mb-md-0 text-dark text-decoration-none ">
-
-
-
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-
-        <!-- Trigger/Open The Modal -->
-        
-        <button id="myBtn" class="modal_btn "  style="font-size: 18px; " > Chercher votre salle <i class="fas fa-search" style="font-size: 18px;"></i></button>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
-          </div>
-
-        </div>
-
-      <!------------modal js start-------------> 
-        <script>
-          // Get the modal
-          var modal = document.getElementById("myModal");
-
-          // Get the button that opens the modal
-          var btn = document.getElementById("myBtn");
-
-          // Get the <span> element that closes the modal
-          var span = document.getElementsByClassName("close")[0];
-
-          // When the user clicks on the button, open the modal
-          btn.onclick = function() {
-            modal.style.display = "block";
-          }
-
-          // When the user clicks on <span> (x), close the modal
-          span.onclick = function() {
-            modal.style.display = "none";
-          }
-
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-            if (event.target == modal) {
-              modal.style.display = "none";
-            }
-          }
-        </script>
-      <!------------modal js end-------------> 
-
-      </div>
-      
-    <!------------MODAL END-------------> 
-
-      
-        
-  
-  
-    <!------------right items start-------------> 
-
-
-      <!------------connected start-------------> 
-        <div class="col-md-6 text-right"><div class="float-right">
-          <ul>
-            <li>
-            <div class="dropdown text-end">
-        <a href="#" class="d-block link-dark text-decoration-none " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="far fa-bell icon"></i>
-        </a>
-        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-          <li><a class="dropdown-item" href="#">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
-        </ul>
-      </div>
-</li>
-<li>
-<div class="dropdown text-end">
-        <a href="#" class="d-block link-dark text-decoration-none " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="far fa-user-circle icon"></i>
-        </a>
-        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-          <li><a class="dropdown-item" href="#">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
-        </ul>
-      </div></li>
-  </ul>
-</div>
-</li>
-      <!------------connected end-------------> 
-
-      <!------------!connected start------------->
-              <ul>
-                <li class="con"><a href="">connexion</a></li>
-                <li class="con"><a href="">creer un compte</a></li>
-              </ul>
-            </li>
-          </ul>
-      <!------------!connected start------------->
-
-        </div>
-        </div> 
-            </div>
-
-    <!------------right items end-------------> 
-
-
-  <!----------------second navbar end---------------->
 
 
 
