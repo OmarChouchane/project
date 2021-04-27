@@ -1,0 +1,8 @@
+.top_home{
+    color: white;
+    background-image: url(../img/home_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}

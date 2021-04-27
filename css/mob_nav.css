@@ -13,10 +13,14 @@ header{
   position: sticky;
   top: 0px;
   background-color: #141828;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
   width: 100%;
   z-index: 1000;
+}
+
+
+.radius{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 
