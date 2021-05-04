@@ -104,15 +104,9 @@
 
 <style>
 
-  body{   
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-  }
-
+    footer{
+      font-weight:300;
+    }
 
     footer .logo{
       color:#9FFFE1;
@@ -136,27 +130,34 @@
         text-decoration:none;
     }
 
+
+
+     .btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  background-color:#9FFFE1;
+  transition : all 0.5s ;
+}
+
+
+
+footer .fb:hover {
+  background-color:#5C61FF  ;
   
-    footer .socials a .fac:hover{
-        color:#5A7ADE !important;
-        }
+}
 
-  
+footer .ins:hover {
+  background-color:#FF3939;
+}
 
-    footer .socials a .ins:hover{
-        color:#EE3939 !important;
-    }
-
-    footer .socials a .ins{
-        transition : all 0.5s ;
-    }
-
-    footer .socials a .fac{
-        transition : all 0.5s ;
-     
-
-     }   
-    }
+.btn-circle i {
+  position: relative;
+  top: 4px;
+}
 
 
 
@@ -168,11 +169,11 @@
             
 
         <div class="row m-0">
-            <div class="col-3 ml-4 mt-4" style="text-align:left; color:#9FFFE1;"  ><a href="" class="logo"><h1>LOGO</h1></a>
+            <div class="col-3 ml-4 mt-4" style="text-align:left;"><a href="" class="logo" style="color:#9FFFE1;"><h1>LOGO</h1></a>
             <div class="mt-3 ml-1 socials">
               <ul style="list-style: none;">
-                <li style="float: left;display: inline; "><a href=""><i class="fab fa-facebook-f  mr-2 fac" aria-hidden="true" style="font-size:30px; display: inline; color:#9FFFE1; "></i> </a></li>
-                <li style="float: left;display: inline; "><a href=""><i class="fab si fa-instagram ml-2  ins" aria-hidden="true" style="font-size:30px; display: inline; color:#9FFFE1; "></i></a></div></li>
+                <li style="float: left;display: inline; "><a href=""><button class="btn btn-circle m-1 fb"><i class="fab si fa-facebook-f"></i></button></a></li>
+                <li style="float: left;display: inline; "><a href=""><button class="btn btn-circle m-1 ins"><i class="fab si fa-instagram"></i></button></a></div></li>
               </ul>
                     
                 
@@ -199,7 +200,10 @@
 <!------------DESKTOP FOOTER END------------->
 
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 
@@ -241,8 +245,13 @@ document.getElementById("searchBar").style.width = "0";
 }
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
 </html>

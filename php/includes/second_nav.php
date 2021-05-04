@@ -13,6 +13,7 @@
       opacity:0.5;
       transition: 0.5s;
       background:transparent;
+      z-index: 100000;
     
     }
 
@@ -23,7 +24,7 @@
 
 
     /* The Modal (background) */
-    .modal {
+    .second_bar .modal {
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
@@ -37,7 +38,7 @@
     }
 
     /* Modal Content/Box */
-    .modal-content {
+    .second_bar .modal-content {
       background-color: #fefefe;
       margin: 15% auto; /* 15% from the top and centered */
       padding: 20px;
@@ -46,7 +47,7 @@
     }
 
     /* The Close Button */
-    .close {
+    .second_bar .close {
       color: #aaa;
       float: right;
       font-size: 28px;
@@ -54,7 +55,7 @@
     }
 
     .close:hover,
-    .close:focus {
+    .second_bar .close:focus {
       color: black;
       text-decoration: none;
       cursor: pointer;
@@ -62,14 +63,14 @@
 
 
 
-    .modal_btn{
+    .second_bar .modal_btn{
       border: 0;
       background-color: transparent;
     }
 
 
 
-    .modal_btn {
+    .second_bar .modal_btn {
       text-align: center;
       text-transform: uppercase;
       cursor: pointer;
@@ -85,7 +86,7 @@
       padding: 5px;
     }
 
-    .modal_btn:hover {
+    .second_bar .modal_btn:hover {
       background:#141828;
       color: #9FFFE1;
 
@@ -93,7 +94,7 @@
 
 
 
-    .modal_btn:active:after {
+    .second_bar .modal_btn:active:after {
       padding: 0;
       margin: 0;
       opacity: 1;
@@ -135,12 +136,12 @@
     }
 
 
-    .con {
+    .second_bar .con {
       transition: all 0.25s linear;
       position: relative;
     }
 
-    .con:before {
+    .second_bar .con:before {
       content: "";
       display: block;
       width: 100%;
@@ -155,7 +156,7 @@
     /*   will-change: transform; */
     }
 
-    .con:hover:before {
+    .second_bar .con:hover:before {
       transform: scale(1);
     }
 
@@ -180,7 +181,7 @@
     }
 
 
-    .dropdown-content {
+    .second_bar .dropdown-content {
       display: none;
       position: absolute;
       background-color: #f1f1f1;
