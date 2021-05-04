@@ -2,11 +2,6 @@
 
 <body>
 
-<style>
-  body{
-    background-color:#EEEEEE;
-  }
-</style>
 
 
 
@@ -152,8 +147,8 @@
                </li>
            </ul>
            <div class="text-center mt-4 mb-5 logs" style="--i: 1.1s !important;">
-           <a href="" class="nav_logs" style="--i: 1.1s !important;"><i class="fab fa-facebook-f mr-3 side_bar_logs" style="color:#9FFFE1;font-size:45px; --i: 1.1s !important;"></a></i>
-           <a href="" class="nav_logs" style="--i: 1.1s !important;"><i class="fab fa-instagram ml-3 side_bar_logs" style="color:#9FFFE1;font-size:45px; --i: 1.1s !important;"></i></a>
+           <a href="" class="nav_logs" style="--i: 1.1s !important;"><button class="btn btn-circle m-1 fb"><i class="fab si fa-facebook-f"></i></button></a>
+           <a href="" class="nav_logs" style="--i: 1.1s !important;"><button class="btn btn-circle m-1 ins"><i class="fab si fa-instagram"></i></button></a>
            </div>
             </div>
                 </div>
